@@ -62,12 +62,20 @@ button:hover {
 }
 
 .product-container {
+  min-height: 50%;
   display: flex;
   justify-content: space-around;
 }
 
 .product {
   border: teal 1px solid;
-  height: 25%;
   width: 25%;
+}
+
+.wrapper {
+  height: 100vh;
+}
+
+main {
+  height: 100vh;
 }
