@@ -3,8 +3,8 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: #7c9070;
-  color: #41644a;
+  background-color: #aac8a7;
+  color: #617a55;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -15,28 +15,38 @@ body {
 }
 
 .section-1 {
-  background-color: #fee8b0;
+  background-color: #e3f2c1;
   height: 40%;
 }
 
 .section-2 {
   text-align: center;
   height: 40%;
-  background-color: #9ca777;
-  color: #fee8b0;
+  background-color: #aac8a7;
+  color: #617a55;
 }
 
 footer {
   display: flex;
-  background-color: #f97b22;
+  background-color: #617a55;
+  color: #e3f2c1;
   text-align: center;
+}
+
+nav {
+  background-color: #f7e1ae;
+  padding: 0;
+  margin: 0;
+}
+
+hr {
+  margin: 0;
 }
 
 .nav-list {
   display: flex;
   justify-content: space-between;
   padding: 0em;
-  margin: 0.3em;
 }
 
 ul {
@@ -53,7 +63,10 @@ li {
 button {
   border: none;
   border-radius: 6px;
-  background-color: #e86a33;
+  background-color: #212a3e;
+  color: #f97b22;
+  padding: 0.3em;
+  margin: 0.2em;
 }
 
 button:hover {
@@ -83,7 +96,7 @@ button:hover {
 
 .product {
   border: #b71375 3px solid;
-  background-color: #f97b22;
+  background-color: #ffa559;
   height: 6rem;
   width: 6rem;
   margin: 1em;
